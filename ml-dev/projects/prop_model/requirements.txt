@@ -1,25 +1,23 @@
-# faiss-cpu==1.8.0
 google-api-core==2.19.1
 google-auth==2.34.0
 google-cloud-bigquery==3.25.0
 google-cloud-core==2.4.1
 altair<5
-# langchain==0.2.7
-# langchain-community==0.2.7
-# langchain-core==0.2.33
-# langchain-openai==0.1.16
-# langchain-text-splitters==0.2.2
-# langsmith==0.1.99
 numpy==1.24.4
-# openai==1.35.13
 pandas==2.0.3
 pyarrow==17.0.0
 pybigquery==0.10.2
 pydantic==2.8.2
 pydantic_core==2.20.1
-# SQLAlchemy==1.4.53
-# sqlalchemy-orm==1.2.10
 streamlit==1.24.0
 tiktoken==0.7.0
 toml==0.10.2
-
+scikit-learn==1.3.2
+matplotlib
+seaborn
+sklearn
+xgboost==1.6.1
+category_encoders
+db-dtypes
+shap
+streamlit_shap
