@@ -33,7 +33,7 @@ def model_training(ratio, best_features, X_train, y_train):
     end=time.time()
     print ("time_spend: "+str(end-start))
 
-    filename = 'Outputs/telecom_churn_model_v1.sav'
-    pickle.dump(best_model_after_fs, open(filename,'wb'))
+    # filename = 'Outputs/telecom_churn_model_v1.sav'
+    # pickle.dump(best_model_after_fs, open(filename,'wb'))
 
     return best_model_after_fs

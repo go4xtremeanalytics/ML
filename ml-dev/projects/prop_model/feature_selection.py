@@ -62,7 +62,7 @@ def feature_selection(X_train, y_train,  ratio,  importance_threshold = 0.70):
 
     # best_features = list(X_train.columns)
 
-    filename = 'Outputs/best_features_v1.sav'
-    pickle.dump(best_features, open(filename,'wb'))
+    # filename = 'Outputs/best_features_v1.sav'
+    # pickle.dump(best_features, open(filename,'wb'))
 
     return best_features
