@@ -21,3 +21,4 @@ category_encoders
 db-dtypes
 shap
 streamlit_shap
+explainerdashboard 

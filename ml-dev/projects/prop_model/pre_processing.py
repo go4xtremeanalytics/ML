@@ -47,7 +47,7 @@ def pre_processing(X, cat_col, num_col):
                     # ('Num_Col_Covar', pp.Num_Col_Covar(X=X,  y = y, outcome_field = 'incomplete_flag'))
                   ])
     # fit_transform()
-    X_PP = Pipe_PP.fit_transform(X)
+    X_PP = Pipe_PP.fit_transform(X[cat_col+ num_col])
     print(X_PP.shape)
     X_PP.head()
 
