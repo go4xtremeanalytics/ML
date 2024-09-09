@@ -302,7 +302,7 @@ st_shap(shap.plots.waterfall(shap_values[0]))
 
 
 
-st.markdown("For further deatiled explaination, please check out the [explainer dashboard](http://192.168.1.98:8051/)")
+st.markdown("For further deatiled explaination, please check out the [explainer dashboard](http://192.168.1.98:9050/)")
 
 from explainerdashboard import ClassifierExplainer, ExplainerDashboard
 from explainerdashboard.dashboards import ShapDependenceComponent, ShapSummaryComponent
@@ -323,7 +323,7 @@ dashboard = ExplainerDashboard(explainer,
     hide_whatifpdp=True
     )
 
-dashboard.run(host='0.0.0.0', port=8051)  # or any other available port
+dashboard.run(host='0.0.0.0', port=9050)  # or any other available port
 
 
 # Action Items
